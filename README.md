@@ -6,7 +6,7 @@ This project provides a full machine learning pipeline and an interactive API fo
 
 ## 📌 Table of Contents
 
-- [Overview](#overview)
+- [Overview](#Overview)
 - [Dataset](#dataset)
 - [Model Architecture](#model-architecture)
 - [Training Process](#training-process)
