@@ -140,5 +140,5 @@ app-reviews-sentiment-api/
 
 # 📬 Contact
 Feel free to reach out for questions, suggestions, or collaboration:
-[shawkygamal150@gmail.com]
-[likedIn](https://www.linkedin.com/in/shawky-gamal-0712b220a/)
+* [email](shawkygamal150@gmail.com)
+* [likedIn](https://www.linkedin.com/in/shawky-gamal-0712b220a/)
