@@ -83,8 +83,7 @@ Method: POST
 Request Body:
 
 ```json
-نسخ
-تحرير
+
 {
   "review": "I love using Todoist for my daily tasks!"
 }
@@ -92,8 +91,7 @@ Request Body:
 Response:
 
 ```json
-نسخ
-تحرير
+
 {
   "sentiment": "positive",
   "confidence": 0.95
@@ -104,21 +102,43 @@ Response:
 Clone the repo
 
 ``` bash
-نسخ
-تحرير
+
 git clone https://github.com/your-username/app-reviews-sentiment-api.git
 cd app-reviews-sentiment-api
 Create a virtual environment
 ```
 ```bash
-نسخ
-تحرير
+
 python -m venv venv
 source venv/bin/activate  # on Windows: venv\Scripts\activate
 Install dependencies
 ```
 ```bash
-نسخ
-تحرير
+
 pip install -r requirements.txt
 ```
+
+## 📁 Project Structure
+
+```bash
+app-reviews-sentiment-api/
+│
+├── data/                     # Raw and cleaned data
+├── bin/                      # files for downloading the model weights and for running the uvicorn server
+├── notebooks/                # notebooks I made for scrapping to get the data and text preprocessing and model training
+├── sentiment_analyzer/       # contains one folder that contain two files, one for model architecture, And the other for the model input ouput handling, and the api file
+├── Pipfile                   # contains the libraries for the dev and operations
+└── README.md
+```
+
+## 🙏 Acknowledgements
+* Hugging Face 🤗 for the Transformers library.
+
+* Google Play Scraper by JoMingyu for dataset collection.
+
+* FastAPI for rapid API development.
+
+# 📬 Contact
+Feel free to reach out for questions, suggestions, or collaboration:
+[shawkygamal150@gmail.com]
+[likedIn](https://www.linkedin.com/in/shawky-gamal-0712b220a/)
