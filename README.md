@@ -94,7 +94,12 @@ Response:
 
 {
   "sentiment": "positive",
-  "confidence": 0.95
+  "confidence": 0.95,
+  "probabilities": {
+    "negative": 5.447819830806111e-7,
+    "neutral": 4.4686262867799087e-7,
+    "positive": 0.9999990463256836
+  }
 }
 ```
 
